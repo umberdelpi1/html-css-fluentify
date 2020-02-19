@@ -9,12 +9,10 @@
 
 /* SEZIONE HEADER NAV */
 header {
-
   height: 600px;
   width: 100%;
   background-image: url(img/vecchi.JPG);
   background-size: cover;
-
 }
 
 nav::after {
@@ -23,6 +21,8 @@ nav::after {
   clear: both;
 }
 
+
+/* CONTENITORE LOGO - E MENU */
 .logo {
   background-image: url(img/logo.png);
   height: 53px;
@@ -37,8 +37,6 @@ nav::after {
 .barra1 {
   float: left;
 }
-
-
 
 .barra1 a {
   color: white;
@@ -75,6 +73,8 @@ nav::after {
   color: white;
 }
 
+
+/* SEZIONE CENTRALE HEDER INFO */
 info::after {
   content: "";
   display: table;
@@ -82,14 +82,12 @@ info::after {
 }
 
 .info {
-height: 220px;
-width: 40%;
-margin-left: 17%;
-margin-top: 7%;
-position: relative;
-
+  height: 220px;
+  width: 40%;
+  margin-left: 17%;
+  margin-top: 7%;
+  position: relative;
 }
-
 
 #claim {
   font-size: 50px;
@@ -106,19 +104,44 @@ position: relative;
   margin-left: 0%;
   margin-top: 4%;
 }
+/* FINE HEADER */
 
-
-/* SEZIONE 1° BLOCCO */
-section {
-  background: #183257;
-  height: 450px;
+/* INIZIO 1° BLOCCO */
+.blocco1 {
+  height: 400px;
   width: 100%;
-  border: solid 1px white;
+  background-color: white;
+}
+
+
+/* FOOTER */
+.faqs {
+  background: #183257;
+  height: 110px;
+  width: 100%;
   padding-top: 10px;
 }
 
-/* .blocco {
-  border: solid white 2px;
-  height: 100px;
+.faqs p {
+  padding-left: 265px;
+  padding-top: 17px;
+}
 
-} */
+#p1 {
+  font-size: 30px;
+  color: white;
+}
+
+#p2 {
+  color: rgba(223, 223, 223, 0.60);
+}
+
+#colorfaqs {
+  color: rgb(13, 154, 36);
+}
+
+.footer {
+  background: #234068;
+  height: 450px;
+  width: 100%;
+}
