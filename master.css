@@ -1,0 +1,94 @@
+/* INFORMAZIONI GENERALI */
+* {
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+  font-family: 'Museo Sans';
+}
+
+
+/* SEZIONE HEADER NAV */
+header {
+
+  height: 600px;
+  width: 100%;
+  background-image: url(img/vecchi.JPG);
+  background-size: cover;
+
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.logo {
+  background-image: url(img/logo.png);
+  height: 53px;
+  width: 10%;
+  background-size: cover;
+  margin-left: 17%;
+  float: left;
+  margin-top: 36px;
+  margin-right: 10px;
+}
+
+.barra1 {
+  float: left;
+}
+
+
+
+.barra1 a {
+  color: white;
+  font-size: 15px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 63px 9px;
+  text-transform: uppercase;
+}
+
+.barra2 {
+  padding-top: 63px;
+  padding-right: 69px;
+  float: right;
+}
+
+#a1 {
+  color: white;
+}
+
+#a2 {
+  background-color: rgba(255, 0, 0, 0.0);
+  border: solid white 2px;
+  border-radius: 20%;
+  padding: 10px;
+  color: white;
+}
+
+#a3 {
+  background-color: rgb(71, 158, 3);
+  border: solid white 2px;
+  border-radius: 20%;
+  padding: 10px;
+  color: white;
+}
+
+
+/* SEZIONE 1° BLOCCO */
+section {
+  background: #183257;
+  height: 450px;
+  width: 100%;
+  border: solid 1px white;
+  padding-top: 10px;
+}
+
+/* .blocco {
+  border: solid white 2px;
+  height: 100px;
+
+} */
