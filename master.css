@@ -21,7 +21,6 @@ nav::after {
   content: "";
   display: table;
   clear: both;
-
 }
 
 .logo {
@@ -71,10 +70,41 @@ nav::after {
 
 #a3 {
   background-color: rgb(71, 158, 3);
-  border: solid white 2px;
-  border-radius: 20%;
+  border-radius: 6%;
   padding: 10px;
   color: white;
+}
+
+info::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info {
+height: 220px;
+width: 40%;
+margin-left: 17%;
+margin-top: 7%;
+position: relative;
+
+}
+
+
+#claim {
+  font-size: 50px;
+  color: white;
+  text-align: left;
+}
+
+#bottonplan {
+  background-color: rgb(71, 158, 3);
+  border-radius: 6%;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 4%;
 }
 
 
